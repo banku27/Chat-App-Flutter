@@ -1,3 +1,4 @@
+import 'package:chat_app_flutter/common/routes/pages.dart';
 import 'package:chat_app_flutter/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -21,9 +22,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container(
-        child: Text('hello'),
-      ),
+      getPages: AppPages.routes,
+      initialRoute: AppPages.INITIAL,
     );
   }
 }

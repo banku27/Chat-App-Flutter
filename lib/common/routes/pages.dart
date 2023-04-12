@@ -1,3 +1,5 @@
+import 'package:chat_app_flutter/pages/welcome/bindings.dart';
+import 'package:chat_app_flutter/pages/welcome/view.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -11,15 +13,15 @@ class AppPages {
   static List<String> history = [];
 
   static final List<GetPage> routes = [
-    /*
     GetPage(
       name: AppRoutes.INITIAL,
-      page: () => WelcomePage(),
+      page: () => const WelcomePage(),
       binding: WelcomeBinding(),
-      middlewares: [
-        RouteWelcomeMiddleware(priority: 1),
-      ],
+      // middlewares: [
+      //   RouteWelcomeMiddleware(priority: 1),
+      // ],
     ),
+    /*
     GetPage(
       name: AppRoutes.SIGN_IN,
       page: () => SignInPage(),
