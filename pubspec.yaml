@@ -128,11 +128,11 @@ flutter:
       fonts:
         - asset: assets/fonts/Avenir-Book.ttf
           weight: 400
-    - family: Monserrat
+    - family: Montserrat
       fonts:
-        - asset: assets/fonts/Monserrat-Medium.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
           weight: 500
-        - asset: assets/fonts/Monserrat-SemiBold.ttf
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
           weight: 600
     - family: Iconfont
       fonts:
